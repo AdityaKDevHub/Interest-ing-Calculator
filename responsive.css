@@ -1,0 +1,804 @@
+/* Large Phones */
+@media (min-width: 719px) and (max-width: 1100px) {
+	.title {
+		top: 20px;
+		font-size: 30px;
+		left: 270px;
+	}
+
+	.placeholder {
+		display: none;
+	}
+
+	.subtitle{
+		top: 60px;
+		font-size: 20px;
+		left: 290px
+	}
+
+	.SI, .CI {
+		display: none;
+	}
+
+	.SI_title {
+		top: 10px;
+	}
+
+	.SI_SI {
+		right: 200px;
+	}
+
+	.placeholder {
+		display: none;
+	}
+
+	.Amount_SI {
+		right: 200px;
+		width: 100px;
+	}
+
+	.CI_div {
+		top: 550px;
+	}
+
+	.CI_div {
+		top: 525px;
+		height: 1200px;
+	}
+
+	#dbl1 {
+		top: 790px;
+	}
+
+	.dbltxt1 {
+		top: 870px;
+	}
+
+	.Amount_An_txt {
+		top: 980px;
+		left: 15px;
+		width: 200px;
+	}
+
+	.CI_An_txt {
+		top: 1010px;
+		left: 15px;
+		width: 100px;
+	}
+
+	#An_CI_Val {
+		top: 980px;
+		right: 20px;
+	}
+
+	#Amount_An_Val {
+		top: 1010px;
+		right: 20px;
+	}
+
+	.Amount_An_txt {
+		top: 980px;
+		left: 15px;
+		width: 200px;
+	}
+
+	.CI_An_txt {
+		top: 1010px;
+		left: 15px;
+		width: 100px;
+	}
+
+	#An_CI_Val {
+		top: 980px;
+		right: 20px;
+	}
+
+	#Amount_An_Val {
+		top: 1010px;
+		right: 20px;
+	}
+
+	#dbl2 {
+		top: 400px;
+	}
+
+	.dbltxt2 {
+		top: 480px;
+	}
+
+	.CI_sa_txt {
+		top: 600px;
+		width: 200px;
+		left: 10px;
+	}
+
+	.Amount_sa_txt {
+		top: 630px;
+		width: 100px;
+		left: 10px;
+	}
+
+	#CI_sa_Val {
+		top: 600px;
+		right: 20px;
+	}
+
+	#Amount_sa_Val {
+		top: 630px;
+		right: 20px;
+	}
+
+	.CI_q_div {
+		top: 2500px;
+		height: 700px;
+	}
+
+	#dbl3 {
+		top: 400px;
+	}
+
+	.dbltxt3 {
+		top: 480px;
+	}
+
+	.CI_q_txt {
+		left: 20px;
+		width: 200px;
+		top: 600px
+	}
+
+	.Amount_q_txt {
+		left: 20px;
+		width: 100px;
+		top: 630px
+	}
+
+	#CI_q_Val {
+		top: 600px;
+		right: 20px;
+	}
+
+	#Amount_q_Val {
+		top: 630px;
+		right: 20px;
+	}
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+	.title {
+		top: 20px;
+		font-size: 30px;
+		left: 200px;
+	}
+
+	.subtitle{
+		top: 60px;
+		font-size: 20px;
+		left: 220px;
+	}
+
+	body {
+		height: 2700px;
+	}
+
+	html {
+		overflow-y: hidden;
+	}
+}
+
+/*Small Phones */
+@media (min-width: 300px) and (max-width: 660px) {
+	.title {
+		left: 85px;
+		font-size: 26px;
+		top: 18px;
+	}
+
+	.subtitle{
+		left: 90px;
+		top: 50px;
+	}
+
+	body {
+		height: 3200px;
+	}
+
+	.SI, .CI {
+		display: none;
+	}
+
+	.sub_a, .sub_b, .sub_c, .sub_d {
+		left: 5px;
+		font-size: 30px;
+	}
+
+	.logo {
+		width: 70px;
+		height: 70px;
+		top: 25px;
+	}
+
+	.SI_title {
+		overflow: visible;
+		line-height: 1;
+	}
+
+	.SI_SI {
+		top: 430px;
+		left: 20px;
+		width: 200px;
+	}
+
+	.Amount_SI {
+		top: 460px;
+		left: 20px;
+		width: 100px;
+	}
+
+	#SI_Val {
+		top: 425px;
+		right: 20px;
+	}
+
+	#Amount_SI_Val {
+		top: 455px;
+		right: 20px;
+	}
+
+	.placeholder {
+		display: none;
+	}
+
+	.CI_div {
+		top: 525px;
+		height: 1200px;
+	}
+
+	#dbl1 {
+		top: 790px;
+	}
+
+	.dbltxt1 {
+		top: 870px;
+	}
+
+	.Amount_An_txt {
+		top: 980px;
+		left: 15px;
+		width: 200px;
+	}
+
+	.CI_An_txt {
+		top: 1010px;
+		left: 15px;
+		width: 100px;
+	}
+
+	#An_CI_Val {
+		top: 980px;
+		right: 20px;
+	}
+
+	#Amount_An_Val {
+		top: 1010px;
+		right: 20px;
+	}
+
+	#dbl2 {
+		top: 400px;
+	}
+
+	.dbltxt2 {
+		top: 480px;
+	}
+
+	.CI_sa_txt {
+		top: 600px;
+		width: 200px;
+		left: 10px;
+	}
+
+	.Amount_sa_txt {
+		top: 630px;
+		width: 100px;
+		left: 10px;
+	}
+
+	#CI_sa_Val {
+		top: 600px;
+		right: 20px;
+	}
+
+	#Amount_sa_Val {
+		top: 630px;
+		right: 20px;
+	}
+
+	.CI_q_div {
+		top: 2500px;
+		height: 700px;
+	}
+
+	#dbl3 {
+		top: 400px;
+	}
+
+	.dbltxt3 {
+		top: 480px;
+	}
+
+	.CI_q_txt {
+		left: 20px;
+		width: 200px;
+		top: 600px
+	}
+
+	.Amount_q_txt {
+		left: 20px;
+		width: 100px;
+		top: 630px
+	}
+
+	#CI_q_Val {
+		top: 600px;
+		right: 20px;
+	}
+
+	#Amount_q_Val {
+		top: 630px;
+		right: 20px;
+	}
+}
+
+@media (min-width: 660px) and (max-width: 719px) {
+	body {
+		height: 3200px;
+	}
+
+	.SI, .CI {
+		display: none;
+	}
+
+	.sub_a, .sub_b, .sub_c, .sub_d {
+		left: 5px;
+		font-size: 30px;
+	}
+
+	.logo {
+		width: 70px;
+		height: 70px;
+		top: 25px;
+	}
+
+	.title {
+		top: 25px;
+		font-size: 25px;
+		left: 200px;
+	}
+
+	.subtitle{
+		top: 60px;
+		font-size: 18px;
+		left: 210px
+	}
+
+	.SI_title {
+		overflow: visible;
+		line-height: 1;
+	}
+
+	.SI_SI {
+		top: 430px;
+		left: 20px;
+		width: 200px;
+	}
+
+	.Amount_SI {
+		top: 460px;
+		left: 20px;
+		width: 100px;
+	}
+
+	#SI_Val {
+		top: 425px;
+		right: 20px;
+	}
+
+	#Amount_SI_Val {
+		top: 455px;
+		right: 20px;
+	}
+
+	.placeholder {
+		display: none;
+	}
+
+	.CI_div {
+		top: 525px;
+		height: 1200px;
+	}
+
+	#dbl1 {
+		top: 790px;
+	}
+
+	.dbltxt1 {
+		top: 870px;
+	}
+
+	.Amount_An_txt {
+		top: 980px;
+		left: 15px;
+		width: 200px;
+	}
+
+	.CI_An_txt {
+		top: 1010px;
+		left: 15px;
+		width: 100px;
+	}
+
+	#An_CI_Val {
+		top: 980px;
+		right: 20px;
+	}
+
+	#Amount_An_Val {
+		top: 1010px;
+		right: 20px;
+	}
+
+	#dbl2 {
+		top: 400px;
+	}
+
+	.dbltxt2 {
+		top: 480px;
+	}
+
+	.CI_sa_txt {
+		top: 600px;
+		width: 200px;
+		left: 10px;
+	}
+
+	.Amount_sa_txt {
+		top: 630px;
+		width: 100px;
+		left: 10px;
+	}
+
+	#CI_sa_Val {
+		top: 600px;
+		right: 20px;
+	}
+
+	#Amount_sa_Val {
+		top: 630px;
+		right: 20px;
+	}
+
+	.CI_q_div {
+		top: 2500px;
+		height: 700px;
+	}
+
+	#dbl3 {
+		top: 400px;
+	}
+
+	.dbltxt3 {
+		top: 480px;
+	}
+
+	.CI_q_txt {
+		left: 20px;
+		width: 200px;
+		top: 600px
+	}
+
+	.Amount_q_txt {
+		left: 20px;
+		width: 100px;
+		top: 630px
+	}
+
+	#CI_q_Val {
+		top: 600px;
+		right: 20px;
+	}
+
+	#Amount_q_Val {
+		top: 630px;
+		right: 20px;
+	}
+}
+
+/* Tablets */
+@media (min-width: 1000px) and (max-width: 1199px) {
+		.CI_A {
+			left: 200px;
+		}
+
+		.CI_B {
+			left: 400px;
+		}
+
+		.CI_C {
+			left: 670px;
+		}
+
+		#An_Pretitle {
+			display: none;
+		}
+}
+
+@media (min-width: 1200px) and (max-width: 1532px) {
+	body {
+		height: 3200px;
+	}
+
+	header {
+		height: 90px;
+	}
+
+	html {
+		overflow-y: hidden;
+	}
+
+	#An_Pretitle {
+		display: none;
+	}
+
+	.logo {
+		width: 70px;
+		height: 70px;
+		top: 5px;
+	}
+
+	.SI {
+		padding: 5px 15px;
+		font-size: 18px;
+		top: 25px;
+		right: 215px;
+	}
+
+	.CI {
+		padding: 5px 15px;
+		font-size: 18px;
+		top: 25px;
+		right: 20px;
+	}
+
+	.title {
+		top: 0px;
+		font-size: 30px;
+		left: 400px;
+	}
+
+	.subtitle{
+		top: 35px;
+		font-size: 20px;
+		left: 430px;
+	}
+
+	.SI_title {
+		font-size: 50px;
+	}
+
+	.SI_SI {
+		right: 450px;
+		top: 130px;
+	}
+
+	.Amount_SI {
+		right: 450px;
+		top: 190px;
+		width: 100px;
+	}
+
+	#SI_Val {
+		right: 150px;
+		top: 125px;
+	}
+
+	#Amount_SI_Val {
+		right: 150px;
+		top: 185px;
+	}
+
+	.CI_div {
+		top: 800px;
+	}
+
+	#Ann {
+		top: 270px;
+	}
+
+	.CI_Sa_div {
+		top: 1900px;
+	}
+
+	.CI_q_div {
+		top: 2700px;
+	}
+
+	#Qtr {
+		top: 2650px;
+	}
+
+	#Sann {
+		top: 1800px;
+	}
+}
+
+/*Desktops*/
+@media (min-width: 1532px) and (max-width: 2620px) {
+	html {
+		overflow-y: hidden;
+	}
+
+	header {
+		height: 120px;
+	}
+
+	.logo {
+		width: 100px;
+		height: 100px;
+	}
+
+	.title {
+		top: 10px;
+		font-size: 40px;
+		left: 600px;
+	}
+
+	.subtitle {
+		top: 65px;
+		font-size: 20px;
+		left: 670px
+	}
+
+	.SI_div {
+		height: 1000px;
+	}
+
+	.SI_title {
+		font-size: 90px;
+		overflow: visible;
+		line-height: 1
+	}
+
+	.p_p {
+		top: 232.5px;
+		font-size: 40px;
+	}
+
+	#SI_P {
+		top: 270px;
+		left: 290px;
+		font-size: 25px
+	}
+
+	#SI_R {
+		top: 350px;
+		left: 290px;
+		font-size: 25px;
+	}
+
+	#SI_T {
+		top: 430px;
+		left: 290px;
+		font-size: 25px;
+	}
+
+	.r_r {
+		top: 312px;
+		font-size: 40px;
+	}
+
+	.r_r_b {
+		top: 312px;
+		font-size: 40px;
+		left: 640px;
+	}
+
+	.t_t {
+		top: 392.5px;
+		font-size: 40px;
+	}
+
+	.sub_a {
+		left: 120px;
+		font-size: 30px;
+		top: 500px;
+	}
+
+	.SI_SI {
+		right: 350px;
+		top: 260px;
+		font-size: 30px;
+	}
+
+	.Amount_SI {
+		right: 350px;
+		top: 320px;
+		font-size: 30px;
+		width: 100px;
+	}
+
+	#SI_Val {
+		right: 120px;
+		top: 270px;
+		font-size: 30px;
+	}
+
+	#Amount_SI_Val {
+		right: 120px;
+		top: 330px;
+		font-size: 30px;
+	}
+
+	.CI_div {
+		top: 1000px;
+	}
+
+	#An_Pretitle {
+		display: none;
+	}
+
+	#Ann {
+		top: 270px;
+	}
+
+	.CI_Sa_div {
+		top: 2000px;
+	}
+
+	.CI_q_div {
+		top: 2700px;
+	}
+
+	#Qtr {
+		top: 2650px;
+	}
+
+	#Sann {
+		top: 1800px;
+	}
+
+	.CI_A {
+		left: 400px;
+		top: 250px;
+	}
+
+	.CI_B {
+		left: 650px;
+		top: 250px;
+	}
+
+	.CI_C {
+		left: 950px;
+		top: 250px;
+	}
+
+	.CI_Info {
+		top: 125px;
+		font-size: 30px;
+	}
+
+	.sep1 {
+		top: 650px;
+	}
+
+	.CI_title {
+		position: absolute;
+		overflow: visible;
+		line-height: 1;
+		width: 100%;
+		text-align: center;
+		font-size: 90px;
+		top: 0px;
+		color: wheat;
+	}
+}

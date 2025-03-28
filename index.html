@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title> Interest-ing Calculator </title>
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	<link rel="stylesheet" type="text/css" href="./responsive.css">
+	<link rel="icon" type="image/x-icon" href="./Images/Coin.png">
+</head>
+<body>
+	<header>
+		<img src="./Images/Coin.png" class="logo" alt="Logo">
+		<h1 class="title"> Interest-ing Calculator </h1>
+		<p class="subtitle"> Made by: <strong style="color: cyan">Aditya VN Kadiyala</strong> </p>
+		<nav>
+			<a href="#" class="SI"> Simple Interest </a>
+			<a href="#CI" class="CI"> Compound Interest </a>
+		</nav>
+	</header>
+	<div class="SI_div">
+		<h1 class="SI_title"> SIMPLE INTEREST </h1>
+	    <p class="p_p"> Principal: </p><input id="SI_P" placeholder="Enter Principal" type="number">
+		<p class="r_r"> Rate: </p><p class="r_r_b"> % </p><input id="SI_R" placeholder="Enter Rate%" type="number">
+		<p class="t_t"> Time: </p><p class="t_t_b"> year(s) </p><input id="SI_T" placeholder="Enter Time" type="number">
+        <h3 class="SI_SI"> Simple Interest: </h3>
+	    <h3 class="Amount_SI"> Amount: </h3>
+	    <h2 id="SI_Val">&#8377;0</h2>
+	    <h2 id="Amount_SI_Val">&#8377;0</h2>
+	    <button class="sub_a" onclick="SI_Calculate()"> Calculate </button>
+	</div>
+	<hr class="sep1" id="CI">
+	<div class="CI_div">
+		<div class="placeholder">
+			<h1 class="CI_title"> COMPOUND INTEREST </h1>
+			<p class="CI_Info"> Press the buttons to get to the respective modes. </p>
+			<nav>
+				<a href="#Ann" class="CI_A"> Annually </a>
+				<a href="#Sann" class="CI_B"> Semi-Annually </a>
+				<a href="#Qtr" class="CI_C"> Quarterly </a>
+			</nav>
+			<hr class="sep2" id="Ann">
+		</div>
+		<div class="Anndiv">
+			<h1 id="An_Pretitle" style="color: wheat;"> COMPOUND INTEREST </h1>
+			<h1 class="An_title"> ANNUALLY </h1>
+			<p class="an_p"> Principal: &#8377;</p> <input id="CI_P" type="number" placeholder="Enter Principal">
+			<p class="an_r"> Rate: </p> <input id="CI_R" type="number" placeholder="Enter Rate" oninput="changeA()"> <p class="an_r_b"> % </p>
+			<p class="an_t"> Time: </p> <input id="CI_T" type="number" placeholder="Years"> <p class="an_t_b"> Year(s) </p>
+			<input id="CI_M" type="number" placeholder="Months"> <p class="an_t_c"> Month(s) </p>
+			<button class="sub_b" onclick="Sub_Annually()"> Calculate </button>
+			<div>
+				<h2 id="dbl1"> 0 </h2> <p class="dbltxt1"> year(s) <br>
+			<br> to  <span style="color: cyan;">double</span> money. </p>
+		</div>
+		<h3 class="Amount_An_txt"> Compound Interest: </h3>
+		<h3 class="CI_An_txt"> Amount: </h3>
+		<h2 id="An_CI_Val"> &#8377;0 </h2>
+		<h2 id="Amount_An_Val"> &#8377;0 </h2>
+		</div>
+	</div>
+	<hr id="Sann" class="sep3">
+	<div class="CI_Sa_div">
+		<h1 class="CI_Sa_title"> SEMI-ANNUALLY </h1>
+		<p class="sa_p"> Principal: &#8377; </p> <input type="number" id="CI_sa_p" placeholder="Enter Principal">
+		<p class="sa_r"> Rate: </p> <input type="number" id="CI_sa_r" placeholder="Enter Rate" oninput="changeB()"> <p class="sa_r_b"> % </p>
+		<p class="sa_t"> Time: </p> <input type="number" id="CI_sa_Y" placeholder="Years"> <input type="number" id="CI_sa_M" placeholder="Months">
+		<p class="sa_y"> Year(s) </p> <p class="sa_m"> Month(s) </p>
+		<button class="sub_c" onclick="Sub_Semi_Annually()"> Calculate </button>
+		<div>
+			<h2 id="dbl2"> 0 </h2> <p class="dbltxt2"> year(s) <br> <br> to <span style="color: cyan;">double</span> money. </p>
+		</div>
+		<h3 class="CI_sa_txt"> Compound Interest: </h3>
+		<h3 class="Amount_sa_txt"> Amount: </h3>
+		<h2 id="CI_sa_Val"> &#8377;0 </h2>
+		<h2 id="Amount_sa_Val"> &#8377;0 </h2>
+	</div>
+	<hr id="Qtr" class="sep4">
+	<div class="CI_q_div">
+		<h1 class="CI_q_title"> QUARTERLY </h1>
+		<p class="q_p"> Principal: &#8377; </p> <input type="number" id="CI_q_p" placeholder="Enter Principal">
+		<p class="q_r"> Rate: </p> <input type="number" id="CI_q_r" placeholder="Enter Rate" oninput="changeC()"> <p class="q_r_b"> % </p>
+		<p class="q_t"> Time: </p> <input type="number" id="CI_q_Y" placeholder="Years"> <input type="number" id="CI_q_M" placeholder="Months">
+		<p class="q_y"> Year(s) </p> <p class="q_m"> Month(s) </p>
+		<button class="sub_d" onclick="Sub_Quarterly()"> Calculate </button>
+		<div>
+			<h2 id="dbl3"> 0 </h2> <p class="dbltxt3"> year(s) <br> <br> to <span style="color: cyan;">double</span> money. </p>
+		</div>
+		<h3 class="CI_q_txt"> Compound Interest: </h3>
+		<h3 class="Amount_q_txt"> Amount: </h3>
+		<h2 id="CI_q_Val"> &#8377;0 </h2>
+		<h2 id="Amount_q_Val"> &#8377;0 </h2>
+	</div>
+</body>
+<script type="text/javascript" src="./index.js"></script>
+</html>
